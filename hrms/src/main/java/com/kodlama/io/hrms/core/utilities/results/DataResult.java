@@ -13,7 +13,7 @@ public class DataResult<T> extends Result{
 		this.data = data;
 	}
 	
-	public T getData() {
+	public T getData() {		//bunu yazmazsak JPA datamızı vermiyor !!
 		return this.data;
 	}
 

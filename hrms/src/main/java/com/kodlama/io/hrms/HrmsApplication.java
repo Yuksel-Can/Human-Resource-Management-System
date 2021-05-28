@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import com.kodlama.io.hrms.entities.concrete.Employer;
+
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
@@ -15,6 +17,7 @@ public class HrmsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HrmsApplication.class, args);
+		Employer a = new Employer();
 	}
 
 
